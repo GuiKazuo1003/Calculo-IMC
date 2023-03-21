@@ -35,3 +35,8 @@ document.addEventListener("keypress", function(e) {
     
     }
   });
+function limpar(){
+  document.getElementById("peso").value = '';
+  document.getElementById("altura").value = '';
+  document.getElementById("resultado").value = '';
+}

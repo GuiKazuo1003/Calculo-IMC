@@ -39,9 +39,20 @@ button:hover {
     background-color: #6f00ff;
     color: white;
     transition: 0.5s;
+    
 }
 @media (max-width: 500px) {
     body, input, button {
         font-size: 15px;
     }
+}
+.clear{
+    cursor: pointer;
+    background-color: #6f00ff;
+    color: white;
+    transition: 0.5s;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    
 }
